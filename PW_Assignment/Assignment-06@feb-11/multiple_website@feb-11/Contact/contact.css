@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+body{
+background-image: url(../Assets/stethoscope.png);
+background-position: center;background-attachment: fixed;
+background-repeat: no-repeat;
+background-clip: border-box;
+background-size: contain;
+font-family: "IBM Plex Sans", sans-serif;
+}
+/* header */
+header{
+    height: 20vh;
+    font-size: 20px;
+    font-weight: 590;
+    
+}
+.logo{
+    padding-top: 10px;
+    width: 12%;
+}
+span{
+    color: #41D399;
+}
+nav{
+    display: flex;
+    align-items: center;justify-content: space-around;
+}
+nav div{
+    width: 60vw;
+    text-align: center;
+}
+nav div ul{
+    display: flex;
+    padding-left: 30%;
+   
+}
+nav div ul li{
+    padding: 0% 4%;
+}
+nav div ul li a{
+    color: black;
+}
+nav img{
+    padding-top: 2%;
+}
+/* main-form */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+label{
+    width: 100px;
+    display: inline-block;
+}
+form{
+    border-radius: 10px;
+    /* background-color: rgb(61, 158, 182); */
+    color:black;
+    width: 250px;
+    padding: 1% 2%;
+    border: 2px solid rgba(122, 120, 120, 0.329);
+   
+}
+main form input{
+    padding:5px 10px;
+    border: 1px solid rgba(163, 161, 161, 0.699);
+    border-radius: 5px;
+    
+}
+main form button{
+    padding: 8px 75px;
+    border-radius: 10px;
+    background-color: #10b674;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+main form button:hover{
+    background-color: white;
+    color: #10b674;
+    border: 1px solid rgb(199, 198, 198);
+}
+main form div{
+    padding: 25% 0% 2% 0%;
+}

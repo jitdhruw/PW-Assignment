@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+body{
+background-image: url(./Assets/stethoscope.png);
+background-position: center;background-attachment: fixed;
+background-repeat: no-repeat;
+background-clip: border-box;
+background-size: contain;
+font-family: "IBM Plex Sans", sans-serif;
+
+}
+/* header */
+header{
+    height: 20vh;
+    font-size: 20px;
+    font-weight: 590;
+    
+}
+.logo{
+    width: 12%;
+}
+span{
+    color: #41D399;
+}
+nav{
+    display: flex;
+    align-items: center;justify-content: space-around;
+}
+nav div{
+    width: 60vw;
+    text-align: center;
+}
+nav div ul{
+    display: flex;
+    padding-left: 30%;
+   
+}
+nav div ul li{
+    padding: 0% 4%;
+}
+nav div ul li a{
+    color: black;
+}
+nav img{
+    padding-top: 2%;
+   
+}
+/* main */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 60vw;
+    padding: 0% 5%;
+}
+h1{
+    font-size: 65px;
+    text-align:left;
+    line-height: 105%;
+    padding-left: 5%;
+}
+p{
+    /* width: 90%; */
+    padding: 5% 0% 7% 5%;
+    font-size: 18px;
+    font-weight: 300;
+}
+button{
+    padding: 15px 27px;
+    font-size: 27px;
+    font-weight: 700;
+    border-radius: 29px;
+    border: none;
+    background-color: #20BC7E;
+    color: #fff;
+}
+.bottom-angle{
+   padding-left: 44%;
+}
+.left .mouse{
+    padding-left: 105%;
+    
+    display: flex;
+    justify-content: right;
+}
+/* right section */
+.right{
+    width: 55vw;
+    
+}
+.right div img{
+    position:absolute;
+    top: 25%;
+}
+
+.right div .one{
+    width: 33vw;
+    height: 90vh;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    z-index: 2;
+}
+.right div .two{
+    width: 30vw;
+    height: 60vh;
+    position: absolute;
+    top: 33.5%;
+    left:69.7%;
+    right: 0.5%;
+    z-index: 1;
+}
+.right div .three{
+    width: 34vw;
+    height: 69vh;
+    position: absolute;
+    top: 27%;
+    left: 65%;
+}

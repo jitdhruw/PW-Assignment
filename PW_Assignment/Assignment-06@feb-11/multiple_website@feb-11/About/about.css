@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+body{
+background-image: url(../Assets/stethoscope.png);
+background-position: center;background-attachment: fixed;
+background-repeat: no-repeat;
+background-clip: border-box;
+background-size: contain;
+font-family: "IBM Plex Sans", sans-serif;
+}
+/* header */
+header{
+    height: 20vh;
+    font-size: 20px;
+    font-weight: 590;
+    
+}
+.logo{
+    padding-top: 10px;
+    width: 12%;
+}
+span{
+    color: #41D399;
+}
+nav{
+    display: flex;
+    align-items: center;justify-content: space-around;
+}
+nav div{
+    width: 60vw;
+    text-align: center;
+}
+nav div ul{
+    display: flex;
+    padding-left: 30%;
+   
+}
+nav div ul li{
+    padding: 0% 4%;
+}
+nav div ul li a{
+    color: black;
+}
+nav img{
+    padding-top: 2%;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 27% 0% 27%;
+    text-align: center;
+}
+main h1{
+    padding: 3% 0%;
+}
+main p{
+    font-weight: 400;
+}
+
+/* section - box */
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 27% 0% 27%;
+    text-align: center;
+}
+.box{
+    height: 80px;
+    width: 190px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 2% 0%;
+}
+section span{
+    font-size: 18px;
+    font-weight: 900;
+}

@@ -1,0 +1,383 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow:visible;
+}
+body{
+    background-color: black;
+    color: white;
+
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* header */
+header{
+    display: flex;
+    padding: 2% 2% 2% 8%;
+    z-index: 2;
+}
+nav{
+    display: flex;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    padding-left: 89%;
+}
+nav ul li{
+    padding: 10% 3% 4% 48%;
+    font-size: 14px;
+    font-weight: 600; 
+}
+nav button{
+    padding: 8px 35px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #181A1B;
+    color: white;
+    border-radius: 10px;
+}
+nav div {
+    padding-left: 100%
+    
+}
+nav img{
+    width: 10vw;
+    height: 5vh;
+}
+
+/* section-part-01 */
+.one{
+    display: flex;
+}
+.one .left-one{
+    width:50vw;
+}
+.one .left-one img {
+    /* width: 50vw; */
+    padding-left: 25%;
+    position: relative;
+    top: -239px;
+   
+
+} 
+/* right-one */
+.one .right-one{
+    padding: 10% 10% 0% 5%;
+}
+ .one .right-one img{
+    padding-left: 8%;
+    padding-bottom: 3%;
+}
+.one .right-one h1{
+    font-size: 50px;
+    font-weight:600 ;
+}
+.one .right-one h4{
+    padding: 10% 0%;
+}
+.one .right-one .main-desciption{
+    width: 25vw;
+    padding-bottom: 12%;
+
+}
+/* .one  p .main-description{
+    width: 12%;
+    
+} */ 
+
+.one .right-one .bag{
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 5px;
+    width: 320px;
+    padding:2.5% 5% ;
+    background-color: #181A1B;
+}
+.one .right-one .bag img{
+    padding-right: 3%;
+}
+
+.shopping{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+/* specification  */
+.specs .specs-logo{
+    padding: 8% 40% 4% 38%;
+}
+.specs-main{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.specs-right{
+    width: 30vw;
+    padding-right: 59%;
+}
+.specs-left{
+    width: 70vw;
+    /* padding-left: 22%; */
+}
+.specs .battery ,.load{
+    margin-left: 42%;
+    margin-bottom: 2%;
+}
+.bluetooth, .microphone{
+    margin-left: 46%;
+    margin-bottom: 2%;
+}
+
+/* case section */
+.case{
+    padding: 5% 4%;
+}
+.case .case-head{
+    padding: 5% 40%;
+}
+.case-main {
+    display: flex;
+    align-content:center ;
+    justify-content: center;
+}
+.case-left{
+    padding-left: 25%;
+}
+.case-right{
+    padding: 10% 25% 10% 9%;
+}
+.case-right p{
+    padding-bottom: 12%;
+}
+.case-right .info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 0%;
+    height: 50px;
+    width: 200px;
+    background-color: #181A1B;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+/* buy section */
+.buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 9%;
+    padding: 3% 0%;
+    background-color: #181A1B;
+  
+}
+.buy .buy-left{
+    width: 110%;
+    padding: 0% 45% 0% 0% ;
+}
+.buy .buy-left p{
+    font-size: 16px;
+}
+.buy .buy-left .buy-now{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:150px;
+    height: 50px;
+   border: none;
+    background-color: #090a0a;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.buy .buy-left .buy-now img{
+    scale: 0.8;
+}
+
+.buy .buy-right img{
+    padding: 0% 45%;
+    background-color: #181A1B;
+}
+
+
+/* choose your style */
+
+.style-logo{
+    scale: 0.8;
+    margin: 0% 30%;
+}
+/* creating box for headphones */
+.items{
+   width: 150px;
+   height: 150px;
+   background-color: #181A1B;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px 10px;
+
+}
+
+.headphone-img{
+    scale: 0.4;
+    position: relative;
+    top: -153px;
+}
+.headphone-info{
+    position: relative;
+    top: -240px;
+    display: flex;
+    justify-content: space-between;
+}
+.headphone-info .headphone-bag{
+    width: 25px;
+    height: 25px;
+    background-color:black;
+    margin: 25px 10px 25px 59px;
+    
+}
+.headphone-info .headphone-bag img{
+   scale: 0.8;
+  padding-left: 2px;
+  padding-top: 2px;
+}
+
+/* creating box for headphones */
+.items{
+    width: 150px;
+    height: 150px;
+    background-color: #181A1B;
+    border-radius: 10px;
+ }
+ 
+ .headphone-img{
+     scale: 0.4;
+     position: relative;
+     top: -153px;
+ }
+ .headphone-info{
+     position: relative;
+     top: -240px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .headphone-info .headphone-bag{
+     width: 25px;
+     height: 25px;
+     background-color:black;
+     margin: 25px 10px 25px 59px;
+     
+ }
+ .headphone-info .headphone-bag img{
+    scale: 0.8;
+   padding-left: 2px;
+   padding-top: 2px;
+   cursor: pointer;
+ }
+ .styles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .styles .headphoes{
+    display: flex;
+    width:40% ;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+
+ /* footer */
+ footer{
+    display: flex;
+    padding: 5% 0%;
+ }
+ .footer-logo{
+    padding-left: 15%;
+    padding-right: 12%;
+ }
+ /* products */
+ 
+ .products-footer h3{
+    padding-bottom: 5px;
+ }
+ .products-footer ul li{
+    font-size: 15px;
+ }
+ /* support */
+ .support-footer{
+    padding: 0% 10%;
+ }
+ .support-footer h3{
+    padding-bottom: 5px;
+ }
+ .support-footer ul li{
+    font-size: 15px;
+    
+ }
+/* subscription image */
+ .social-media{
+   display: flex;
+ }
+
+ .social-media input{
+    padding: 7px 90px;
+    background-color: #181A1B;
+    border-radius: 8px;
+  
+ }
+ .subscribe{
+    display: flex;
+   position: relative;
+   right: 150px;
+   top: 3px;
+   width: 130px;
+   height: 30px;
+   background-color:black;
+   border-radius: 5px;
+   margin-bottom: 40px;
+   
+   
+ }
+ .subscribe img{
+    scale: 0.5;
+ }
+ .subscribe p{
+    padding: 7px ;
+    position: relative;
+    top: -5px;
+ }
+ .social-list img{
+    padding: 0% 2%;
+   
+ }
+ footer li a{
+    cursor: pointer;
+ }
+ 
+ 
+
+
+
+
+ 
