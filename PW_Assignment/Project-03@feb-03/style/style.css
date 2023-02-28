@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive; ;
+}
+body{
+    background-image:url("../Assets/pexels-maxyne-barcel-10402282\ 1.png") ;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+      background-size: cover; 
+      box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+ul{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+li{
+    list-style: none;
+}
+li a{
+    display:  flex;
+    align-items: center;
+    justify-items: space-around;
+    padding: 0 40px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #FFC233;
+    cursor: pointer;
+  
+}
+
+li a:hover{
+    color: rgb(51, 5, 5);
+    text-decoration: underline;
+    
+}
+nav{
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+.logo{
+    padding-left: 1px;
+    padding-right: 2%;
+    padding-top: 1%;
+}
+
+nav div button{
+    padding: 10px 35px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #FF515F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+nav div button:hover{
+    background-color: #0b2c02;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    font-size: 110px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 99%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    color: #FFC233;
+}
+main div button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 5px;
+    background-color: #FF515F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ma div button:hover{
+    background-color: #0b2c02;
+    color: white;
+}
+footer{
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    padding: 6% 5% 1% 5%;
+}
+
+
